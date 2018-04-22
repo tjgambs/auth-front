@@ -55,12 +55,9 @@
 
 <script>
     
-    import store from '../../store'
-
     const API_URL = process.env.API_URL
 
     export default {
-        store,
         name: 'Login',
         data () {
             return {
